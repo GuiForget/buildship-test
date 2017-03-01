@@ -1,0 +1,6 @@
+description = """API Layer"""
+
+dependencies {
+    compile project(':projectC')
+}
+

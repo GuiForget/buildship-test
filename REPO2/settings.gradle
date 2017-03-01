@@ -1,0 +1,4 @@
+rootProject.name = 'REPO2'
+
+include 'projectC'
+include 'projectD'

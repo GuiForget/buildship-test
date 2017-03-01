@@ -1,0 +1,24 @@
+allprojects {
+    group = 'test.repo1'
+}
+
+
+subprojects { subProject ->
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+
+    dependencies {
+        testCompile 'junit:junit'
+    }
+
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                from components.java
+            }
+        }
+    }
+}

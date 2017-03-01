@@ -1,0 +1,6 @@
+description = """Service Implementation"""
+
+dependencies {
+    compile 'test.repo1:projectB:+'
+}
+

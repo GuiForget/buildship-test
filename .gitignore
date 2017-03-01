@@ -1,0 +1,19 @@
+# Gradle files
+.gradle
+build/
+gralde-app.settings
+generated/
+
+# Eclipse workspace files
+.metadata
+.recommenders
+
+# Eclipse project files
+.classpath
+.project
+.settings
+bin/
+
+# IntelliJ project files
+.idea/
+*.iml

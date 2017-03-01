@@ -1,0 +1,4 @@
+rootProject.name = 'adhoc'
+
+includeBuild '../REPO1'
+includeBuild '../REPO2'
